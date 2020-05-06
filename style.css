@@ -5,6 +5,7 @@
 }
 
 .wel-pg{
+    margin: 0px;
     border-color: red;
     border-style: solid;
     display: flex;
@@ -47,6 +48,8 @@ ul{
     border-style: solid;
     flex-grow: 1;
     flex-basis: 400px;
+    height: 100vh;
+    overflow: auto;
 }
 
 .container-about{
@@ -56,6 +59,7 @@ ul{
     height: 100vh;
 }
 
+/* "About" written on the design pg of about */
 .about-write{
     display: flex;
     justify-content: center;
