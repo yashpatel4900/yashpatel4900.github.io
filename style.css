@@ -1,0 +1,61 @@
+
+
+.sep::before{
+    content: " / " ;
+}
+
+.wel-pg{
+    height: 590px;
+    border-color: red;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.wel-text{
+    border-color: blue;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+}
+
+ul{
+    border-color: green;
+    border-style: solid;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+
+.about-design{
+    border-color: palegreen;
+    border-style: solid;
+    flex-grow: 1;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.about-content{
+    border-color: rgb(38, 123, 156);
+    border-style: solid;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.container-about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-write{
+    display: flex;
+    justify-content: center;
+    height: 100%
+}
