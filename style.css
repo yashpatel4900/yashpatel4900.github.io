@@ -1,4 +1,6 @@
-
+body{
+    font-family: Arial;
+}
 
 .sep::before{
     content: " / " ;
@@ -156,4 +158,25 @@ ul{
     justify-content: center;
     align-items: center;
     height: 100%
+}
+
+/* Fixed Scrolling issue in narrow window by this: */
+@media(max-width: 844px){
+    
+    /* About */
+    .about-design{
+        float: none;
+        position: relative;
+    }
+    /* Work */
+    .work-design{
+        float: none;
+        position: relative;
+    }
+    /* Contact  */
+    .contact-design{
+        float: none;
+        position: relative;
+    }
+    
 }
