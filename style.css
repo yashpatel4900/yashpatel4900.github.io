@@ -32,6 +32,8 @@ ul{
     margin: 0px;
   }
 
+
+/* About */
 .about-design{
     border-color: palegreen;
     border-style: solid;
@@ -40,7 +42,8 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
 }
 
 .about-content{
@@ -48,7 +51,7 @@ ul{
     border-style: solid;
     flex-grow: 1;
     flex-basis: 400px;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: auto;
 }
 
@@ -56,7 +59,8 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
 }
 
 /* "About" written on the design pg of about */
@@ -66,6 +70,7 @@ ul{
     height: 100%
 }
 
+/* Work */
 .work-design{
     border-color: palegreen;
     border-style: solid;
@@ -74,7 +79,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .work-content{
@@ -82,7 +87,7 @@ ul{
     border-style: solid;
     flex-grow: 1;
     flex-basis: 400px;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: auto;
 }
 
@@ -90,7 +95,7 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* "Work" written on the design pg of about */
