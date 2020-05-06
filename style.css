@@ -57,6 +57,7 @@ ul{
     flex-basis: 400px;
     /* height: 100vh; */
     overflow: auto;
+    z-index: 1;
 }
 
 .container-about{
@@ -97,6 +98,7 @@ ul{
     flex-basis: 400px;
     /* height: 100vh; */
     overflow: auto;
+    z-index: 1;
 }
 
 .container-work{
@@ -137,6 +139,7 @@ ul{
     flex-basis: 400px;
     /* height: 100vh; */
     overflow: auto;
+    z-index: 1;
 }
 
 .container-contact{
