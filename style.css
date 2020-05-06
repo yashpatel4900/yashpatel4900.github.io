@@ -47,6 +47,7 @@ ul{
     float: right;
     position: sticky;
     top: 0;
+    z-index: 1;
     /* height: 100%; */
 }
 
@@ -57,7 +58,7 @@ ul{
     flex-basis: 400px;
     /* height: 100vh; */
     overflow: auto;
-    z-index: 1;
+    z-index: 10;
 }
 
 .container-about{
@@ -146,7 +147,7 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* "Contact" written on the design pg of about */
