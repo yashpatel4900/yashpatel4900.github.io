@@ -118,6 +118,10 @@ ul{
     /* height: 100vh; */
     overflow: auto;
     z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0px;
 }
 
 .container-work{
@@ -254,4 +258,26 @@ ul{
         top: 0;
     }
     
+}
+
+
+
+.developer{
+    background-image: url(Developer.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.BSE{
+    background-image: url(BSE.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.space-invader{
+    background-image: url(space-invader.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position:50% 20%;
+
 }
