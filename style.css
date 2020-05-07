@@ -163,48 +163,14 @@ ul{
 /* Fixed Scrolling issue in narrow window by this: */
 
 /* @media(max-width: 844px){ */
-@media only screen and (orientation: portrait){
-    /* About */
-    .about-design{
-        float: none;
-        position: relative;
-    } 
-    /* Work */
-    .work-design{
-        float: none;
-        position: relative;
-    }
-    /* Contact  */
-    .contact-design{
-        float: none;
-        position: relative;
-    }
-    
-}
 
-@media only screen and (orientation: landscape){
-    /* About */
-    .about-design{
-        float: right;
-        position: sticky;
-        top: 0;
-    } 
-    /* Work */
-    .work-design{
-        float: right;
-        position: sticky;
-        top: 0;
-    }
-    /* Contact  */
-    .contact-design{
-        float: right;
-        position: sticky;
-        top: 0;
-    }
-    
-}
 
 @media(max-width: 844px){
+    .wel-text{
+        border-color: palevioletred;
+        border-style: groove;
+    }
+
     /* About */
     .about-design{
         float: none;
@@ -221,4 +187,55 @@ ul{
         position: relative;
     }
         
+}
+
+@media only screen and (orientation: portrait){
+    .wel-text{
+        border-color: aqua;
+        border-style: double;
+    }
+
+    /* About */
+    .about-design{
+        float: none;
+        position: relative;
+    } 
+    /* Work */
+    .work-design{
+        float: none;
+        position: relative;
+    }
+    /* Contact  */
+    .contact-design{
+        float: none;
+        position: relative;
+    }
+    
+}
+
+
+@media only screen and (orientation: landscape){
+    .wel-text{
+        border-style: dotted;
+    }
+
+    /* About */
+    .about-design{
+        float: right;
+        position: sticky;
+        top: 0;
+    } 
+    /* Work */
+    .work-design{
+        float: right;
+        position: sticky;
+        top: 0;
+    }
+    /* Contact  */
+    .contact-design{
+        float: right;
+        position: sticky;
+        top: 0;
+    }
+    
 }
