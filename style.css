@@ -1,5 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    src: url(fonts/wel/Tangerine-Bold.tff);
+    tangerine;
+}
+
 body{
-    font-family: Arial;
+    font-family: 'Dancing Script', tangerine, cursive;
 }
 
 .sep::before{
@@ -13,7 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100vh
+    height: 100vh;
 }
 
 .wel-text{
@@ -24,6 +34,7 @@ body{
     align-items: center;
     margin: 0px;
     height: 100%;
+    font-size: 100px;
 }
 
 ul{
