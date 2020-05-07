@@ -161,22 +161,23 @@ ul{
 }
 
 /* Fixed Scrolling issue in narrow window by this: */
-@media(max-width: 844px){
+
+/* @media(max-width: 844px){ */
     
     /* About */
-    .about-design{
+    /* .about-design{
         float: none;
         position: relative;
-    }
+    } */
     /* Work */
-    .work-design{
+    /* .work-design{
         float: none;
         position: relative;
-    }
+    } */
     /* Contact  */
-    .contact-design{
+    /* .contact-design{
         float: none;
         position: relative;
     }
     
-}
+} */
