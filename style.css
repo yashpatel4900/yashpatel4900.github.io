@@ -194,22 +194,3 @@ ul{
     }
     
 }
-
-@media(max-width: 844px){ 
-    /* About */
-    .about-design{
-        float: none;
-        position: relative;
-    } 
-    /* Work */
-    .work-design{
-        float: none;
-        position: relative;
-    }
-    /* Contact  */
-    .contact-design{
-        float: none;
-        position: relative;
-    }
-    
-}
