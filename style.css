@@ -266,7 +266,7 @@ ul{
     background-image: url(Developer.jpg);
     height: 100vh;
     width: 100%;
-    /* background-position:150% 20%; */
+    background-position:20% 20%;
     background-size: cover;
     transition: all 3s;
     position: relative;
