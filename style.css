@@ -162,8 +162,40 @@ ul{
 
 /* Fixed Scrolling issue in narrow window by this: */
 
-@media(max-width: 844px){
+/* @media(max-width: 844px){ */
+@media only screen and (orientation: portrait){
+    /* About */
+    .about-design{
+        float: none;
+        position: relative;
+    } 
+    /* Work */
+    .work-design{
+        float: none;
+        position: relative;
+    }
+    /* Contact  */
+    .contact-design{
+        float: none;
+        position: relative;
+    }
     
+}
+
+@media only screen and (orientation: landscape){
+    /* About */
+    .about-design{
+    } 
+    /* Work */
+    .work-design{
+    }
+    /* Contact  */
+    .contact-design{
+    }
+    
+}
+
+@media(max-width: 844px){ 
     /* About */
     .about-design{
         float: none;
