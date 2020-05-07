@@ -214,7 +214,7 @@ ul{
 }
 
 
-@media only screen and (orientation: landscape){
+@media only screen and (orientation: landscape) and (min-width: 844px){
     .wel-text{
         border-style: dotted;
     }
