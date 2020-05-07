@@ -19,9 +19,10 @@ body{
 .popout {
     font-family: Futura, sans-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 4em;
     padding: 80px;
-    padding-bottom: 30%;
+    padding-top: 50%;
+    word-break: keep-all;
 }
 @keyframes ani {
     0% {
@@ -141,9 +142,13 @@ ul{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2rem;
+    color: white;
   }
 
-
+a.button:visited
+{
+ color:inherit;
+}
 
 /* About */
 .about-design{
@@ -161,6 +166,14 @@ ul{
     top: 0;
     z-index: 1;
     /* height: 100%; */
+}
+
+.about-design-write{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 3em;
 }
 
 .about-content{
@@ -211,7 +224,7 @@ ul{
     flex-grow: 1;
     flex-basis: 400px;
     /* height: 100vh; */
-    overflow: auto;
+    overflow: hidden;
     z-index: 1;
     display: flex;
     flex-wrap: nowrap;
@@ -251,6 +264,14 @@ ul{
     top: 0;
 }
 
+.contact-design-write{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
 .contact-content{
     /* border-color: rgb(38, 123, 156); */
     /* border-style: solid; */
@@ -259,6 +280,7 @@ ul{
     /* height: 100vh; */
     overflow: auto;
     z-index: 1;
+    margin: 0px;
 }
 
 .container-contact{
@@ -280,11 +302,32 @@ ul{
 
 /* @media(max-width: 844px){ */
 
+@media(max-height: 400px){
+    .about-design-write{
+        padding-bottom: 20%;
+    }
 
-@media(max-width: 844px){
+    .contact-design-write{
+        padding-bottom: 20%;
+    }
+}
+
+@media(max-width: 1033px){
     .wel-text{
         border-color: palevioletred;
         border-style: groove;
+    }
+
+    .about-content{
+        flex-basis: 1033px;
+    }
+
+    .work-content{
+        flex-basis: 1033px;
+    }
+
+    .contact-content{
+        flex-basis: 1033px;
     }
 
     /* About */
@@ -388,7 +431,7 @@ ul{
     height: 100vh;
     width: 100%;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* Transition Effects */
