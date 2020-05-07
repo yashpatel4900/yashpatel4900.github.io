@@ -44,7 +44,12 @@ ul{
     display: flex;
     flex-direction: row;
     margin: 0px;
+    padding-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
   }
+
 
 
 /* About */
