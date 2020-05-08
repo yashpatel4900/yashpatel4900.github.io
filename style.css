@@ -5,16 +5,16 @@
 
 @font-face{
     src: url(fonts/wel/Tangerine-Bold.tff);
-    tangerine;
+    font-family: tangerine;
 }
 
 @font-face{
     src: url(fonts/About/Raleway-Black.tff);
-    rb;
+    font-family: rb;
 }
 @font-face{
     src: url(fonts/About/Raleway-ExtraBold.tff);
-    rbb;
+    font-family: rbb;
 }
 
 body{
@@ -574,7 +574,7 @@ a.button:visited
     padding: 20px;
     font-family: rbb,serif;
 }
-.ICT-t{
+#ICT-t{
     font-weight: bold;
 }
 .ICT-p{
