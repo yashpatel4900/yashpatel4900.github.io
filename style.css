@@ -375,6 +375,16 @@ a.button:visited
     }
 }
 
+@media(max-height: 260px){
+    .about-design-write{
+        padding-bottom: 0em;
+    }
+
+    .contact-design-write{
+        padding-bottom: 0em;
+    }
+}
+
 @media(max-width: 1033px){
     .wel-text{
         border-color: palevioletred;
