@@ -17,7 +17,7 @@ body{
 }
 
 .popout {
-    font-family: Futura, sans-serif;
+    font-family: 'Futura', sans-serif;
     font-weight: 600;
     font-size: 15vh;
     padding: 80px;
@@ -204,6 +204,7 @@ a.button:visited
     align-items: center;
     height: 100%
 }
+
 
 /* Work */
 .work-design{
@@ -483,8 +484,6 @@ a.button:visited
     
 }
 
-
-
 .developer{
     background-image: url(Developer.jpg);
     height: 100vh;
@@ -544,4 +543,56 @@ a.button:visited
     font-size: 2.5rem;
     text-align: center;
     padding: 30%;
+}
+
+.about-pg{
+    padding: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.Hey{
+    padding: 24px;
+    font-family: 'Proxima Nova Bold',serif;
+}
+.hey-p{
+    padding: 12px;
+}
+.ICT{
+    padding: 20px;
+    font-family: 'Proxima Nova Bold',serif;
+}
+.ICT-p{
+    padding: 12px;
+}
+.Things{
+    padding: 20px;
+    font-family: 'Proxima Nova Bold',serif;
+}
+.things-p{
+    padding: 12px;
+}
+.things-p-l1{
+    padding: 12px;
+    font-family: 'Proxima Nova Bold',serif;
+}
+.things-p-l1c1{
+    padding: 14px;
+}  
+.things-p-l2{
+    padding: 12px;
+    font-family: 'Proxima Nova Bold',serif;
+}
+.things-p-l2c2{
+    padding: 14px;
+}
+.ol-process{
+    padding-left: 22px;
+}
+.mysaying{
+    padding: 30px;
+    font-family: 'Proxima Nova Bold',serif;
+}
+.quote{
+    padding: 30px;
+    font-family: 'Proxima Nova Bold',serif;
 }
