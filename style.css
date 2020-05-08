@@ -348,21 +348,21 @@ a.button:visited
     }
 
     .contact-design-write{
-        font-size: 14vmax;
+        font-size: 8vmax;
     }
 
     .about-design-write{
-        font-size: 14vmax;
+        font-size: 10vmax;
     }
 }
 
 @media(max-width: 930px){
     .about-design-write{
-        padding-bottom: 4em;
+        padding-bottom: 5em;
     }
 
     .contact-design-write{
-        padding-bottom: 3.5em;
+        padding-bottom: 4em;
     }
 }
 
