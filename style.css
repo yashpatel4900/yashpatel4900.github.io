@@ -65,7 +65,7 @@ body{
 svg {
     display: block;
     /* font: 10.5em 'Montserrat'; */
-    font: 40vh 'Montserrat';
+    font: 20vmax 'Montserrat';
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -176,6 +176,7 @@ a.button:visited
     flex-direction: row;
     justify-content: center;
     padding-bottom: 3em;
+    font-size: 10vmax;
 }
 
 .about-content{
@@ -273,7 +274,7 @@ a.button:visited
     flex-direction: row;
     justify-content: center;
     padding-bottom: 3em;
-    font-size: 20px%;
+    font-size: 8vmax;
 }
 
 
