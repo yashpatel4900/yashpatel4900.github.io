@@ -564,12 +564,18 @@ a.button:visited
     padding: 24px;
     font-family: rbb,serif;
 }
+#hey-t{
+    font-weight: bold;
+}
 .hey-p{
     padding: 12px;
 }
 .ICT{
     padding: 20px;
     font-family: rbb,serif;
+}
+.ICT-t{
+    font-weight: bold;
 }
 .ICT-p{
     padding: 12px;
@@ -578,12 +584,16 @@ a.button:visited
     padding: 20px;
     font-family: rbb,serif;
 }
+#Things-t{
+    font-weight: bold;
+}
 .things-p{
     padding: 12px;
 }
 .things-p-l1{
     padding: 12px;
     font-family: rbb,serif;
+    font-weight: bold;
 }
 .things-p-l1c1{
     padding: 14px;
@@ -591,6 +601,7 @@ a.button:visited
 .things-p-l2{
     padding: 12px;
     font-family: rbb,serif;
+    font-weight: bold;
 }
 .things-p-l2c2{
     padding: 14px;
@@ -601,8 +612,12 @@ a.button:visited
 .mysaying{
     padding: 30px;
     font-family: rbb,serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 .quote{
     padding: 30px;
     font-family: rbb,serif;
+    font-weight: bold;
+    font-size: 16px;
 }
