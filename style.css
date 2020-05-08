@@ -425,6 +425,14 @@ a.button:visited
         float: none;
         position: relative;
     }
+
+    .contact-design-write{
+        font-size: 8vmax;
+    }
+
+    .about-design-write{
+        font-size: 10vmax;
+    }
     
 }
 
