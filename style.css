@@ -358,11 +358,20 @@ a.button:visited
 
 @media(max-width: 930px){
     .about-design-write{
-        padding-bottom: 5em;
+        padding-bottom: 4em;
     }
 
     .contact-design-write{
         padding-bottom: 4em;
+    }
+}
+@media(max-height: 392px){
+    .about-design-write{
+        padding-bottom: 2em;
+    }
+
+    .contact-design-write{
+        padding-bottom: 2em;
     }
 }
 
