@@ -18,7 +18,7 @@ body{
 
 .popout {
     font-family: Futura, sans-serif;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 15vh;
     padding: 80px;
     padding-top: 50%;
@@ -162,6 +162,7 @@ a.button:visited
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
+    width: 100%;
     float: right;
     position: sticky;
     top: 0;
@@ -260,6 +261,7 @@ a.button:visited
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
+    width: 100%;
     float: right;
     position: sticky;
     top: 0;
@@ -272,6 +274,7 @@ a.button:visited
     justify-content: center;
     padding-bottom: 3em;
 }
+
 
 .contact-content{
     /* border-color: rgb(38, 123, 156); */
