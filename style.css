@@ -8,6 +8,15 @@
     tangerine;
 }
 
+@font-face{
+    src: url(fonts/About/Raleway-Black.tff);
+    rb;
+}
+@font-face{
+    src: url(fonts/About/Raleway-ExtraBold.tff);
+    rbb;
+}
+
 body{
     font-family: 'Dancing Script', tangerine, cursive;
 }
@@ -177,6 +186,7 @@ a.button:visited
     justify-content: center;
     padding-bottom: 2em;
     font-size: 8vmax;
+    font-style: tangerine;
 }
 
 .about-content{
@@ -547,40 +557,40 @@ a.button:visited
 
 .about-pg{
     padding: 48px;
-    font-family: 'Raleway', sans-serif;
+    font-family: rb, sans-serif;
     font-size: 16px;
 }
 .Hey{
     padding: 24px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
 .hey-p{
     padding: 12px;
 }
 .ICT{
     padding: 20px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
 .ICT-p{
     padding: 12px;
 }
 .Things{
     padding: 20px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
 .things-p{
     padding: 12px;
 }
 .things-p-l1{
     padding: 12px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
 .things-p-l1c1{
     padding: 14px;
 }  
 .things-p-l2{
     padding: 12px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
 .things-p-l2c2{
     padding: 14px;
@@ -590,9 +600,9 @@ a.button:visited
 }
 .mysaying{
     padding: 30px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
 .quote{
     padding: 30px;
-    font-family: 'Proxima Nova Bold',serif;
+    font-family: rbb,serif;
 }
