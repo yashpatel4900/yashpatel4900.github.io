@@ -127,6 +127,14 @@ svg {
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
+    
+    background-image: url(background-img.jpg);
+    height: 100vh;
+    width: 99%;
+    background-position:50% 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .wel-text{
@@ -139,6 +147,13 @@ svg {
     height: 100%;
     font-size: 20px;
     position: relative;
+
+    /* background-image: url(background-img.jpg);
+    height: 100vh;
+    width: 100% ;
+    background-position:40% 0%;
+    background-size: 100vh;
+    background-attachment: fixed; */
 }
 
 ul{
@@ -164,7 +179,8 @@ a.button:visited
 .about-design{
     /* border-color: palegreen; */
     /* border-style: solid; */
-    background-color: rgb(118, 178, 218);
+    /* background-color: rgb(118, 178, 218); */
+    background-color: white;
     flex-grow: 1;
     flex-basis: 400px;
     display: flex;
@@ -298,6 +314,7 @@ a.button:visited
     overflow: auto;
     z-index: 1;
     margin: 0px;
+    background-color: black;
 }
 
 .container-contact{
@@ -435,6 +452,16 @@ a.button:visited
 
 
 @media only screen and (orientation: portrait){
+    .wel-pg{
+        background-image: url(background-img-mobile.jpg);
+        height: 100vmax;
+        width: 98%;
+        background-position: 100% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
     .wel-text{
         border-color: aqua;
         border-style: double;
@@ -512,6 +539,7 @@ a.button:visited
     background-size: cover;
     transition: all 3s;
     position: relative;
+    background-attachment: fixed;
 }
 
 .space-invader{
@@ -525,6 +553,7 @@ a.button:visited
     width: 100%;
     position: relative;
     overflow: hidden;
+    background-attachment: scroll;
 }
 
 /* Transition Effects */
@@ -617,7 +646,7 @@ a.button:visited
 }
 .quote{
     padding: 30px;
-    font-family: rbb,serif;
+    font-family: 'rbb',serif;
     font-weight: bold;
     font-size: 16px;
 }
