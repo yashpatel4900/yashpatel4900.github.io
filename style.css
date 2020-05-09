@@ -1,9 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-@font-face{
+/* @font-face{
     src: url(fonts/wel/Tangerine-Bold.tff);
     font-family: tangerine;
 }
@@ -15,7 +16,7 @@
 @font-face{
     src: url(fonts/About/Raleway-ExtraBold.tff);
     font-family: rbb;
-}
+} */
 
 body{
     font-family: 'Dancing Script', tangerine, cursive;
@@ -23,6 +24,15 @@ body{
 
 .sep::before{
     content: " / " ;
+}
+
+.popout1 {
+    font-family: 'Futura', sans-serif;
+    font-weight: 600;
+    font-size: 15vh;
+    padding: 80px;
+    padding-top: 50%;
+    word-break: keep-all;
 }
 
 .popout {
@@ -33,7 +43,8 @@ body{
     padding-top: 50%;
     word-break: keep-all;
 }
-@keyframes ani {
+
+@keyframes ani1 {
     0% {
         transform: translate3d(0, 0, 0);
         text-shadow: 0em 0em 0 lightblue;
@@ -55,6 +66,45 @@ body{
         color: black;
    }
 }
+
+@keyframes ani {
+    0% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0em 0em 0 rgb(44, 80, 92);
+        color: white;
+   }
+    30% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0em 0em 0 rgb(44, 80, 92);
+        color: white;
+   }
+    70% {
+        transform: translate3d(0.08em, -0.08em, 0);
+        text-shadow: -0.08em 0.08em rgb(44, 80, 92);
+        color: white;
+   }
+    100% {
+        transform: translate3d(0.08em, -0.08em, 0);
+        text-shadow: -0.08em 0.08em rgb(44, 80, 92);
+        color: white;
+   }
+}
+
+.popout1 span {
+    position: relative;
+    display: inline-block;
+    animation: ani1 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
+}
+.popout1 span:nth-last-child(1n) {
+    animation-delay: -0.1666666667s;
+}
+.popout1 span:nth-last-child(2n) {
+    animation-delay: -0.3333333333s;
+}
+.popout span:nth-last-child(3n) {
+    animation-delay: -0.5s;
+}
+
 .popout span {
     position: relative;
     display: inline-block;
@@ -74,7 +124,7 @@ body{
 svg {
     display: block;
     /* font: 10.5em 'Montserrat'; */
-    font: 15vmax 'Montserrat';
+    font: 25vh 'Montserrat';
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -127,14 +177,74 @@ svg {
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
-    
+    background-color: rgb(32, 35, 48);
+/*     
     background-image: url(background-img.jpg);
     height: 100vh;
     width: 99%;
     background-position:50% 0%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+}
+
+#welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+/* #welcome path:nth-child(1){
+    stroke-dasharray: 100px;
+} */
+
+#welcome path:nth-child(2){
+    stroke-dasharray: 640px;
+    stroke-dashoffset: 640px;
+    animation: line-anim 2s ease forwards;
+}
+#welcome path:nth-child(3){
+    stroke-dasharray: 260px;
+    stroke-dashoffset: 260px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#welcome path:nth-child(4){
+    stroke-dasharray: 200px;
+    stroke-dashoffset: 200px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#welcome path:nth-child(5){
+    stroke-dasharray: 215px;
+    stroke-dashoffset: 215px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#welcome path:nth-child(6){
+    stroke-dasharray: 140px;
+    stroke-dashoffset: 140px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#welcome path:nth-child(7){
+    stroke-dasharray: 385px;
+    stroke-dashoffset: 385px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#welcome path:nth-child(8){
+    stroke-dasharray: 260px;
+    stroke-dashoffset: 260px;
+    animation: line-anim 3s ease forwards 1.8s;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
 }
 
 .wel-text{
@@ -200,9 +310,15 @@ a.button:visited
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 2em;
-    font-size: 8vmax;
+    padding-bottom: 40vh;
+    font-size: 8vw;
     font-style: tangerine;
+    top: 50%;
+    bottom: 50%;
+    /* left: 10%; */
+    /* transform: translate(-50%, -50%); */
+    width: 100%;
+    /* transform: translate(3%, -30%); */
 }
 
 .about-content{
@@ -282,7 +398,8 @@ a.button:visited
 .contact-design{
     /* border-color: palegreen; */
     /* border-style: solid; */
-    background-color: rgb(218, 191, 118);
+    /* background-color: rgb(218, 191, 118); */
+    background-color: black;
     flex-grow: 1;
     flex-basis: 400px;
     display: flex;
@@ -300,8 +417,13 @@ a.button:visited
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 2.2em;
-    font-size: 8vmax;
+    padding-bottom: 40vh;
+    font-size: 8vw;
+    top: 45%;
+    /* left: 10%; */
+    /* transform: translate(-50%, -50%); */
+    width: 100%;
+    /* transform: translate(3%, -30%); */
 }
 
 
@@ -314,7 +436,7 @@ a.button:visited
     overflow: auto;
     z-index: 1;
     margin: 0px;
-    background-color: black;
+    background-color: white;
 }
 
 .container-contact{
@@ -336,7 +458,7 @@ a.button:visited
 
 /* @media(max-width: 844px){ */
 
-@media(max-height: 400px){
+/* @media(max-height: 400px){
     .about-design-write{
         padding-bottom: 20%;
     }
@@ -344,9 +466,9 @@ a.button:visited
     .contact-design-write{
         padding-bottom: 20%;
     }
-}
+} */
 
-@media(max-width: 574px){
+/* @media(max-width: 574px){
     .about-design-write{
         padding-bottom: 5em;
     }
@@ -354,9 +476,9 @@ a.button:visited
     .contact-design-write{
         padding-bottom: 5em;
     }
-}
+} */
 
-@media(max-width: 830px){
+/* @media(max-width: 830px){
     svg {
         font: 20vmax 'Montserrat';
     }
@@ -368,9 +490,9 @@ a.button:visited
     .about-design-write{
         padding-bottom: 4em;
     }
-}
+} */
 
-@media(max-width: 640px){
+/* @media(max-width: 640px){
     svg {
         font: 40vmax 'Montserrat';
     }
@@ -382,9 +504,9 @@ a.button:visited
     .about-design-write{
         font-size: 10vmax;
     }
-}
+} */
 
-@media(max-width: 930px){
+/* @media(max-width: 930px){
     .about-design-write{
         padding-bottom: 4em;
     }
@@ -392,8 +514,8 @@ a.button:visited
     .contact-design-write{
         padding-bottom: 4em;
     }
-}
-@media(max-height: 392px){
+} */
+/* @media(max-height: 392px){
     .about-design-write{
         padding-bottom: 2em;
     }
@@ -401,9 +523,9 @@ a.button:visited
     .contact-design-write{
         padding-bottom: 2em;
     }
-}
+} */
 
-@media(max-height: 260px){
+/* @media(max-height: 260px){
     .about-design-write{
         padding-bottom: 0em;
     }
@@ -411,7 +533,7 @@ a.button:visited
     .contact-design-write{
         padding-bottom: 0em;
     }
-}
+} */
 
 @media(max-width: 1033px){
     .wel-text{
@@ -453,7 +575,7 @@ a.button:visited
 
 @media only screen and (orientation: portrait){
     .wel-pg{
-        background-image: url(background-img-mobile.jpg);
+        background-image: url(background-img-mobile1.jpg);
         height: 100vmax;
         width: 98%;
         background-position: 100% 0%;
@@ -484,13 +606,17 @@ a.button:visited
     }
 
     .contact-design-write{
-        font-size: 8vmax;
+        font-size: 18vw;
     }
 
     .about-design-write{
-        font-size: 10vmax;
+        font-size: 18vw;
     }
     
+    svg {
+        font: 50vh 'Montserrat';
+        font-weight: 400;
+    }
 }
 
 
@@ -650,3 +776,4 @@ a.button:visited
     font-weight: bold;
     font-size: 16px;
 }
+
