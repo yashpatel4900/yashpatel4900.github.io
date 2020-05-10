@@ -449,6 +449,73 @@ a.button:visited
     background-color: white;
 }
 
+.about-pg{
+    padding: 48px;
+    font-family: rb, sans-serif;
+    font-size: 16px;
+}
+.Hey{
+    padding: 24px;
+    font-family: rbb,serif;
+}
+#hey-t{
+    font-weight: bold;
+}
+.hey-p{
+    padding: 12px;
+}
+.ICT{
+    padding: 20px;
+    font-family: rbb,serif;
+}
+#ICT-t{
+    font-weight: bold;
+}
+.ICT-p{
+    padding: 12px;
+}
+.Things{
+    padding: 20px;
+    font-family: rbb,serif;
+}
+#Things-t{
+    font-weight: bold;
+}
+.things-p{
+    padding: 12px;
+}
+.things-p-l1{
+    padding: 12px;
+    font-family: rbb,serif;
+    font-weight: bold;
+}
+.things-p-l1c1{
+    padding: 14px;
+}  
+.things-p-l2{
+    padding: 12px;
+    font-family: rbb,serif;
+    font-weight: bold;
+}
+.things-p-l2c2{
+    padding: 14px;
+}
+.ol-process{
+    padding-left: 22px;
+}
+.mysaying{
+    padding: 30px;
+    font-family: rbb,serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.quote{
+    padding: 30px;
+    font-family: 'rbb',serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .container-about{
     display: flex;
     flex-direction: row;
@@ -673,6 +740,26 @@ a.button:visited
 } */
 
 @media(max-width: 1033px){
+    /* .wel-pg{
+        background: rgb(32, 35, 48);
+        height: 200vh;
+        width: 98%;
+        background-position: 100% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    section{
+        background: url(Minions-background-img.jpg);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    } */
+
     .wel-text{
         border-color: palevioletred;
         border-style: groove;
@@ -787,7 +874,7 @@ a.button:visited
     }
 
     .about-pg{
-        padding: 0px;
+        padding: 15px;
     }
     .Hey{
         padding: 12px;
@@ -877,8 +964,6 @@ a.button:visited
         position: sticky;
         top: 0;
     }
-
-    
 }
 
 .developer{
@@ -942,72 +1027,5 @@ a.button:visited
     font-size: 2.5rem;
     text-align: center;
     padding: 30%;
-}
-
-.about-pg{
-    padding: 48px;
-    font-family: rb, sans-serif;
-    font-size: 16px;
-}
-.Hey{
-    padding: 24px;
-    font-family: rbb,serif;
-}
-#hey-t{
-    font-weight: bold;
-}
-.hey-p{
-    padding: 12px;
-}
-.ICT{
-    padding: 20px;
-    font-family: rbb,serif;
-}
-#ICT-t{
-    font-weight: bold;
-}
-.ICT-p{
-    padding: 12px;
-}
-.Things{
-    padding: 20px;
-    font-family: rbb,serif;
-}
-#Things-t{
-    font-weight: bold;
-}
-.things-p{
-    padding: 12px;
-}
-.things-p-l1{
-    padding: 12px;
-    font-family: rbb,serif;
-    font-weight: bold;
-}
-.things-p-l1c1{
-    padding: 14px;
-}  
-.things-p-l2{
-    padding: 12px;
-    font-family: rbb,serif;
-    font-weight: bold;
-}
-.things-p-l2c2{
-    padding: 14px;
-}
-.ol-process{
-    padding-left: 22px;
-}
-.mysaying{
-    padding: 30px;
-    font-family: rbb,serif;
-    font-weight: bold;
-    font-size: 18px;
-}
-.quote{
-    padding: 30px;
-    font-family: 'rbb',serif;
-    font-weight: bold;
-    font-size: 16px;
 }
 
