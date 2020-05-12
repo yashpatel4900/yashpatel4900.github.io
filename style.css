@@ -4,19 +4,34 @@
     box-sizing: border-box;
 }
 
-/* @font-face{
-    src: url(fonts/wel/Tangerine-Bold.tff);
+@font-face{
+    src: url(fonts/wel/Tangerine-Bold.ttf);
     font-family: tangerine;
 }
-
 @font-face{
-    src: url(fonts/About/Raleway-Black.tff);
+    src: url(fonts/Left-Headings/Charmonman-Bold.ttf);
+    font-family: LH;
+}
+@font-face{
+    src: url(fonts/Left-Headings/Monoton-Regular.ttf);
+    font-family: Monoton;
+}
+@font-face{
+    src: url(fonts/Left-Headings/Bellota-Regular.ttf);
+    font-family: Bellota;
+}
+@font-face{
+    src: url(fonts/About/Raleway-Black.ttf);
     font-family: rb;
 }
 @font-face{
-    src: url(fonts/About/Raleway-ExtraBold.tff);
+    src: url(fonts/About/Raleway-Light.ttf);
+    font-family: rl;
+}
+@font-face{
+    src: url(fonts/About/Raleway-ExtraBold.ttf);
     font-family: rbb;
-} */
+}
 
 body{
     font-family: 'Dancing Script', tangerine, cursive;
@@ -27,7 +42,7 @@ body{
 }
 
 .popout1 {
-    font-family: 'Futura', sans-serif;
+    font-family: Bellota, Monoton, 'Futura', sans-serif;
     font-weight: 600;
     font-size: 15vh;
     padding: 80px;
@@ -36,8 +51,8 @@ body{
 }
 
 .popout {
-    font-family: 'Futura', sans-serif;
-    font-weight: 600;
+    font-family: Bellota, Monoton, 'Futura', sans-serif;
+    font-weight: 800;
     font-size: 15vh;
     padding: 80px;
     padding-top: 50%;
@@ -451,12 +466,12 @@ a.button:visited
 
 .about-pg{
     padding: 48px;
-    font-family: rb, sans-serif;
-    font-size: 16px;
+    font-family: rl, sans-serif;
+    font-size: 19px;
 }
 .Hey{
     padding: 24px;
-    font-family: rbb,serif;
+    /* font-family: rl,serif; */
 }
 #hey-t{
     font-weight: bold;
@@ -466,7 +481,8 @@ a.button:visited
 }
 .ICT{
     padding: 20px;
-    font-family: rbb,serif;
+    /* font-weight: bold; */
+    /* font-family: rbb,serif; */
 }
 #ICT-t{
     font-weight: bold;
@@ -476,7 +492,8 @@ a.button:visited
 }
 .Things{
     padding: 20px;
-    font-family: rbb,serif;
+    /* font-weight: bold; */
+    /* font-family: rbb,serif; */
 }
 #Things-t{
     font-weight: bold;
@@ -486,15 +503,16 @@ a.button:visited
 }
 .things-p-l1{
     padding: 12px;
-    font-family: rbb,serif;
     font-weight: bold;
+    /* font-family: rbb,serif; */
+    /* font-weight: bold; */
 }
 .things-p-l1c1{
     padding: 14px;
 }  
 .things-p-l2{
     padding: 12px;
-    font-family: rbb,serif;
+    /* font-family: rbb,serif; */
     font-weight: bold;
 }
 .things-p-l2c2{
@@ -505,13 +523,13 @@ a.button:visited
 }
 .mysaying{
     padding: 30px;
-    font-family: rbb,serif;
+    /* font-family: rbb,serif; */
     font-weight: bold;
     font-size: 18px;
 }
 .quote{
     padding: 30px;
-    font-family: 'rbb',serif;
+    /* font-family: 'rbb',serif; */
     font-weight: bold;
     font-size: 16px;
 }
@@ -875,48 +893,53 @@ a.button:visited
 
     .about-pg{
         padding: 15px;
+        font-family: rl, sans-serif;
+        font-size: 19px;
     }
     .Hey{
         padding: 12px;
-        font-family: rbb,serif;
+        /* font-family: rl,serif; */
     }
     #hey-t{
         font-weight: bold;
     }
     .hey-p{
-        padding: 06px;
+        padding: 6px;
     }
     .ICT{
         padding: 10px;
-        font-family: rbb,serif;
+        /* font-weight: bold; */
+        /* font-family: rbb,serif; */
     }
     #ICT-t{
         font-weight: bold;
     }
     .ICT-p{
-        padding: 06px;
+        padding: 6px;
     }
     .Things{
         padding: 10px;
-        font-family: rbb,serif;
+        /* font-weight: bold; */
+        /* font-family: rbb,serif; */
     }
     #Things-t{
         font-weight: bold;
     }
     .things-p{
-        padding: 06px;
+        padding: 6px;
     }
     .things-p-l1{
-        padding: 06px;
-        font-family: rbb,serif;
+        padding: 6px;
         font-weight: bold;
+        /* font-family: rbb,serif; */
+        /* font-weight: bold; */
     }
     .things-p-l1c1{
         padding: 7px;
     }  
     .things-p-l2{
         padding: 6px;
-        font-family: rbb,serif;
+        /* font-family: rbb,serif; */
         font-weight: bold;
     }
     .things-p-l2c2{
@@ -927,13 +950,13 @@ a.button:visited
     }
     .mysaying{
         padding: 15px;
-        font-family: rbb,serif;
+        /* font-family: rbb,serif; */
         font-weight: bold;
         font-size: 18px;
     }
     .quote{
         padding: 15px;
-        font-family: 'rbb',serif;
+        /* font-family: 'rbb',serif; */
         font-weight: bold;
         font-size: 16px;
     }
