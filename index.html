@@ -378,16 +378,26 @@
                 <div class="BSE">
                     <!-- <img class="BSE-image work-img" src="BSE.jpg" alt="BSE"> -->
                     <div class="work-content-heading" id="BSE-bg">
-                        <button id="show-content-BSE">BSE</button>
+                        <!-- <div id="BSE-back-div">
+                            <button id="BSE-back">Back</button>
+                        </div> -->
+                        <div id="BSE-name-button">
+                            <p>BSE</p>
+                            <button id="show-content-BSE">More</button>
+                        </div>
                     </div>
                     <div id="BSE-content" style="display: none;">
                         <div class="about-pg">
+                            <div id="BSE-back-div">
+                                <button id="BSE-back">Back</button>
+                            </div>
                             <div class="Hey">
                                 <p class="hey-p" id='hey-t'>
                                     Hey! Nice to see you here.
                                 </p>
                                 <p class="hey-p">
-                                    I am in the field of information and communication technology and completed 2 years of the
+                                    I am in the field of information and communication technology and completed 2 years
+                                    of the
                                     course.
                                 </p>
                             </div>
@@ -396,9 +406,12 @@
                                     Information and communication Technology
                                 </p>
                                 <p class="ICT-p">
-                                    Information and communication Technology refers to technologies that provide access to
-                                    information through telecommunications. It is similar to Information Technology (IT), but
-                                    focuses primarily on communication technologies. This includes the Internet, wireless
+                                    Information and communication Technology refers to technologies that provide access
+                                    to
+                                    information through telecommunications. It is similar to Information Technology
+                                    (IT), but
+                                    focuses primarily on communication technologies. This includes the Internet,
+                                    wireless
                                     networks, cell phones, and other communication mediums.
                                 </p>
                             </div>
@@ -412,13 +425,17 @@
                                     Python
                                 </p>
                                 <p class="things-p-l1c1">
-                                    I've always thought Python was easier to learn, so it's more accessible to most beginning
-                                    coders. That was actually the thing that convinced me to learn it in the first place.
-                                    Secondly, it has much better readability than C++ or Java. I also like that when I run into
+                                    I've always thought Python was easier to learn, so it's more accessible to most
+                                    beginning
+                                    coders. That was actually the thing that convinced me to learn it in the first
+                                    place.
+                                    Secondly, it has much better readability than C++ or Java. I also like that when I
+                                    run into
                                     a problem, there is usually more than one tried and true way to resolve it.
                                 </p>
                                 <p class="things-p-l1c1">
-                                    I have used python for Web Scrapping of stock prices of Bombay Stock Exchange Companies
+                                    I have used python for Web Scrapping of stock prices of Bombay Stock Exchange
+                                    Companies
                                     using Beautifulsoup library and also built a game Space Invader.
                                 </p>
                                 <!-- </div> -->
@@ -427,7 +444,8 @@
                                     Web Development
                                 </p>
                                 <p class="things-p-l2c2">
-                                    A web developer designs, develops, enhances, tests and deploys web applications with an end
+                                    A web developer designs, develops, enhances, tests and deploys web applications with
+                                    an end
                                     goal of creating engaging and user-friendly site layout and function.
                                 </p>
                                 <p class="things-p-l2c2">
@@ -578,17 +596,49 @@
         })
     </script> -->
     <script>
-        document.getElementById("show-content-BSE").onclick=function(){
+        document.getElementById("show-content-BSE").onclick = function () {
             document.getElementById("W-D").style.transition = "all 3s";
             document.getElementById("W-F").style.transition = "all 3s";
             document.getElementById("BSE-content").style.transition = "all 3s";
             document.getElementById("BSE-bg").style.transition = "all 3s";
-            document.getElementById("BSE-content").style.display="block";
-            document.getElementById("W-D").style.flexBasis="200px";
-            document.getElementById("W-D").style.flexGrow="0.2";
-            document.getElementById("W-F").style.fontSize="4vw";
+            document.getElementById("BSE-name-button").style.transition = "all 3s";
+            document.getElementById("BSE-content").style.display = "block";
+            document.getElementById("W-D").style.flexBasis = "200px";
+            document.getElementById("W-D").style.flexGrow = "0.2";
+            document.getElementById("W-F").style.fontSize = "4vw";
             document.getElementById("BSE-bg").style.padding = "0";
             document.getElementById("BSE-bg").style.height = "40vh";
+            // document.getElementById("BSE-name-button").style.transform = "translate(0%,100%)";
+            document.getElementById("BSE-back-div").style.display = "block";
+            document.getElementById("BSE-back-div").style.position = "sticky";
+            document.getElementById("BSE-back-div").style.top = "0px";
+            document.getElementById("show-content-BSE").style.display = "none";
+            var x = window.matchMedia("(max-width: 1033px)")
+            if (x.matches) {
+                document.getElementById("W-D").style.flexBasis = "400px";
+                document.getElementById("W-D").style.flexGrow = "1";
+                document.getElementById("W-F").style.fontSize = "8vw";
+                document.getElementById("BSE-bg").style.padding = "0";
+                document.getElementById("BSE-bg").style.height = "40vh";
+            }
+        }
+
+        document.getElementById("BSE-back").onclick = function () {
+            document.getElementById("W-D").style.transition = "all 3s";
+            document.getElementById("W-F").style.transition = "all 3s";
+            document.getElementById("BSE-content").style.transition = "all 3s";
+            document.getElementById("BSE-bg").style.transition = "all 3s";
+            document.getElementById("BSE-name-button").style.transition = "all 3s";
+            document.getElementById("BSE-content").style.display = "none";
+            document.getElementById("W-D").style.flexBasis = "400px";
+            document.getElementById("W-D").style.flexGrow = "1";
+            document.getElementById("W-F").style.fontSize = "8vw";
+            document.getElementById("BSE-bg").style.padding = "0";
+            document.getElementById("BSE-bg").style.height = "100vh";
+            // document.getElementById("BSE-name-button").style.transform = "translate(0%,300%)";
+            document.getElementById("BSE-back-div").style.display = "none";
+            document.getElementById("show-content-BSE").style.display = "initial";
+            // document.getElementById("show-content-BSE").style.transform="translate(945%,10%)";
         }
     </script>
 </body>
